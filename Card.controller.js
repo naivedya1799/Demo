@@ -41,6 +41,8 @@ sap.ui.define([
 				]
 			});
 			this.getView().setModel(oModel);
+			console.log("push to trial branch")
+			console.log("push to trial branch1")
 		}
 	});
 });
