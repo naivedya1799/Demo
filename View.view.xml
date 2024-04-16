@@ -38,5 +38,6 @@
             <ToolbarSpacer/>
             <Button text="Book" press="onBookPress" type="Emphasized" />
         </Toolbar>
+        <Button text="Demo"></Button>
     </VBox>
 </mvc:View>
