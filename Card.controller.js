@@ -7,6 +7,7 @@ sap.ui.define([
 
 	return Controller.extend("ns.GitDemo.Card", {
 		onInit: function () {
+			console.log("push to demo branch")
 			var oModel = new JSONModel({
 				"cities": [
 					{
