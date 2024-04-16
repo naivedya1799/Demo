@@ -39,5 +39,6 @@
             <Button text="Book" press="onBookPress" type="Emphasized" />
         </Toolbar>
         <Button text="Demo"></Button>
+        <Text text="trial"></Text>
     </VBox>
 </mvc:View>
