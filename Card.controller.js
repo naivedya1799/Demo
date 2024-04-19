@@ -41,6 +41,7 @@ sap.ui.define([
 				]
 			});
 			this.getView().setModel(oModel);
+			
 		}
 	});
 });
