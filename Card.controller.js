@@ -7,6 +7,7 @@ sap.ui.define([
 
 	return Controller.extend("ns.GitDemo.Card", {
 		onInit: function () {
+			console.l
 			var oModel = new JSONModel({
 				"cities": [
 					{
@@ -40,7 +41,7 @@ sap.ui.define([
 				]
 			});
 			this.getView().setModel(oModel);
-			
+			console.log("this is trial branch")
 		}
 	});
 });
